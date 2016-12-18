@@ -1,3 +1,5 @@
+#longest substring with no repetition
+
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
     	current_substring, max_substring = '', ''
