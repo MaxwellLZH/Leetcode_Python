@@ -1,5 +1,5 @@
 import numpy as np
-
+'''
 class Solution(object):
     def maxSubArray(self, nums):
         """
@@ -30,4 +30,9 @@ class Solution(object):
 
 
 s = Solution()
-s.maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
+s.maxSubArray([-2,1,-3,4,-1,2,1,-5,4])'''
+
+ret = []
+for i in range(10):
+	ret.append([i] * i)
+print ret
